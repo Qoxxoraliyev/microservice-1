@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47b2ad98-6f44-423d-8b55-20072d523eec" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="2" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../../../demo1">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../../demo2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../../discovery">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo1" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2zgHyFYk0Ke1lmz3PFmNXmEbAWF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Demo1Application.executor": "Coverage",
+    "Application.Demo2Application.executor": "Coverage",
+    "Application.DiscoveryApplication.executor": "Coverage",
+    "Gradle.Build demo1.executor": "Run",
+    "Gradle.Build demo2.executor": "Run",
+    "Gradle.Build discovery.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/discovery",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.1453125",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Demo1Application">
+    <configuration name="Demo1Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.microservice1.demo1.Demo1Application" />
+      <module name="demo1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microservice1.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo2Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.microservice2.demo2.Demo2Application" />
+      <module name="demo2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microservice2.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.microservice3.discovery.DiscoveryApplication" />
+      <module name="discovery.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microservice3.discovery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo1Application" />
+        <item itemvalue="Application.Demo2Application" />
+        <item itemvalue="Application.DiscoveryApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47b2ad98-6f44-423d-8b55-20072d523eec" name="Changes" comment="" />
+      <created>1752146049210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752146049210</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/microservice_parent$Demo1Application.ic" NAME="Demo1Application Coverage Results" MODIFIED="1752147926585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.microservice1.demo1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/microservice_parent$DiscoveryApplication.ic" NAME="DiscoveryApplication Coverage Results" MODIFIED="1752147658273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.microservice3.discovery.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/microservice_parent$Demo2Application.ic" NAME="Demo2Application Coverage Results" MODIFIED="1752147666597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.microservice2.demo2.*</FILTER>
+    </SUITE>
+  </component>
+</project>
