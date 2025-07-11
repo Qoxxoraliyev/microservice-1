@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c8bb322-17c0-43e8-aaf0-154c26be4915" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/microservice-parent.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/src/main/java/com/microservice1/demo1/Demo1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/microservice1/demo1/Demo1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/src/main/java/com/microservice1/demo1/Demo1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/microservice1/demo1/Demo1Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/src/main/java/com/microservice2/demo2/Demo2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/src/main/java/com/microservice2/demo2/Demo2Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
