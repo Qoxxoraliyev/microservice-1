@@ -3,24 +3,36 @@ package com.microservice1.demo1;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
+
+import java.util.Date;
+
 
 @RestController
 public class Demo1Controller {
 
-    private final RestTemplate restTemplate;
+    private final Demo1Service demo1Service;
 
-    public Demo1Controller(RestTemplate restTemplate) {
-        this.restTemplate = restTemplate;
+    public Demo1Controller(Demo1Service demo1Service) {
+        this.demo1Service = demo1Service;
     }
 
-
-    @GetMapping("/hello")
+    @GetMapping
     public ResponseEntity<String> hello(){
-        String responseFromDemo2=restTemplate.getForObject("http://demo2/hello", String.class);
-        String result="Mohirdev1 "+responseFromDemo2;
+        String result= demo1Service.hello();
         return ResponseEntity.ok(result);
     }
+
+
+
+    @GetMapping("/message")
+    public ResponseEntity<MessageDTO> message(Long id){
+        MessageDTO result=demo1Service.message(id);
+        result.setCreatedDate(new Date().getTime());
+        return ResponseEntity.ok(result);
+    }
+
+
+
 
 
 }
